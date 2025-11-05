@@ -3,38 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "./style.css">
-    <!---아이콘 불러오기--->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>ChatGPT</title>
 </head>
 <body>
-    <div class="container"> <!--전체를 감사는 컨테이너-->
-        <!--상단 프로젝트 제목-->
-        <div class = "header">
-            <h3>SUJUNG ChatGPT BOT</h3>
+    <div class="container">
+        <div class="header">
+            <h3>AJIN ChatGPT Bot</h3>
         </div>
 
-        <!--info : 제작자 정보/링크-->
-        <div class = "info">
-            <a href= "https://github.com/suej27134-prog/-1-.git" target="_blank">Made by Sujung</a>
+        <div class="info">
+            <a href="https://github.com/ppocchi" target="_blank">Made by Ajin</a>
         </div>
 
-        <!--chat-container:채팅 메시지 영역-->
         <div class="chat-container">
-            <div id="chat-log"></div><!--채팅 로그가 들어갈 공간-->
+            <div id="chat-log"></div>
         </div>
-        <!--input-container:메시지 입력 영역-->
+
         <div class="input-container">
-            <input type="text" id="user-input" placeholder="Type your message here..."><!--입력창-->
-            <button id="send-buttonn"><!--보내기 버튼-->
-                <!--Font Awesome 종이비행기 아이콘-->
-                <i class="fa-solid fa-paper-plane" id="button-icon"></i> 
+            <input type="text" id="user-input" placeholder="Send a message.">
+            <button id="send-button">
+                <i class="fa-solid fa-paper-plane" id="button-icon"></i>
             </button>
+        </div>
     </div>
- </div>
 
     <script src="https://kit.fontawesome.com/68919c29ca.js" crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
